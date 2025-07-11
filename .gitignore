@@ -1,0 +1,15 @@
+# Compiled files
+*.exe
+*.o
+a.out
+
+# VS Code config
+.vscode/
+
+# Build files
+*.out
+*.class
+
+# System files
+.DS_Store
+Thumbs.db
