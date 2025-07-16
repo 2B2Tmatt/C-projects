@@ -38,6 +38,7 @@ int main(){
     n2.next = &n3; 
     n3.next = NULL; //stop
 
+    printlist(head); 
 
 
 
