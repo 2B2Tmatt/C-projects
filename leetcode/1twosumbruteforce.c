@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//better solutions exist, come back later
 int* twoSum(int* nums, int numsSize, int target, int* returnSize);
 
 
@@ -28,17 +28,14 @@ int main() {
 // Its needed in most functions that return array ints but not for voids that take
 // int array args
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
-    *returnSize = 2; 
-    int *answers = malloc(2*sizeof(int)); 
-    for(int i = 0; i<numsSize; i++){
-        for(int j = 0; j < numsSize; j++){
-            if(nums[i]+nums[j]==target && i!=j){
-                
-                answers[0] = i; 
-                answers[1] = j; 
-                return answers; 
-            }
+   *returnSize = 2; 
+   int *answers = malloc(2* sizeof(int)); 
+   for(int i = 0; i< numsSize; i++){
+    for(int j = 0; j< numsSize; j++){
+        if(nums[i] + nums[j] == target && i!=j){
+            
         }
     }
+   }
     
 }
